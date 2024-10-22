@@ -27,4 +27,4 @@ Por se tratar de um projeto simples, a execução não tem segredo. Para facilit
 https://joaopedrosignor.github.io/ToDoList/
 
 ### Dificuldades
-Tentei de diversas maneiras utilizar o Laravel, mas enfrentei vários problemas. Tive dificuldades com o arquivo php.ini e também com o arquivo env do próprio projeto Laravel, precisando alterá-los várias vezes. Depois de conseguir fazer o run dev funcionar sem problemas, enfrentei novos obstáculos ao tentar usar o phpMyAdmin, pois o MySQL do XAMPP não inicializava. Também tentei usar o MySQL Workbench no projeto Laravel, mas sem sucesso.
+Eu não tinha nenhum conhecimento em SQL, PHP e Laravel, mas me esforcei ao máximo para utilizá-los. Tentei de diversas maneiras utilizar o Laravel, mas enfrentei vários problemas. Tive dificuldades com o arquivo php.ini e também com o arquivo env do próprio projeto Laravel, precisando alterá-los várias vezes. Depois de conseguir fazer o run dev funcionar sem problemas, enfrentei novos obstáculos ao tentar usar o phpMyAdmin, pois o MySQL do XAMPP não inicializava. Também tentei usar o MySQL Workbench no projeto Laravel, mas sem sucesso.
