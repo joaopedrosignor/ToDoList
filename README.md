@@ -21,3 +21,7 @@ Esta é uma aplicação de lista de tarefas (To-Do List) onde os usuários podem
 ### Funcionalidades Extras
 - **Responsividade**: A interface é adaptável para diferentes tamanhos de tela, incluindo mobile.
 - **Interface Moderna**: Utiliza o framework Bootstrap 5.3.3 para fornecer uma interface clean e intuitiva com botões e ícones modernos.
+
+### Execução
+Por se tratar de um projeto simples, a execução não tem segredo. Para facilitar, disponibilizei o github pages. 
+https://joaopedrosignor.github.io/ToDoList/
