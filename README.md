@@ -25,3 +25,6 @@ Esta é uma aplicação de lista de tarefas (To-Do List) onde os usuários podem
 ### Execução
 Por se tratar de um projeto simples, a execução não tem segredo. Para facilitar, disponibilizei o github pages. 
 https://joaopedrosignor.github.io/ToDoList/
+
+### Dificuldades
+Tentei de diversas maneiras utilizar o Laravel mas tive diversos problemas... Tive problemas com o arquivo php.ini, e também com o arquivo env do próprio projeto do Laravel, tive que alterá-los diversas vezes... Após conseguir com que o run dev funcionasse sem problemas, tive problemas para utilizar o phpmyadmin pois o MySQL do Xampp não inicializava. Também tentei utilizar o MySQLWorkbench no projeto Laravel mas também não tive sucesso.
