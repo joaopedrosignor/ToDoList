@@ -138,23 +138,23 @@ function editarTarefa(idTarefa) {
     marcarBtn.classList.add('hidden');
     nomeTarefa.classList.add('hidden');
     botoes.classList.add('hidden');
-    edicaoFeitaForm.classList.remove('hidden');
+    edicaoForm.classList.remove('hidden');
 
     // Adicionar evento de submit ao formulário
-    edicaoFeitaForm.addEventListener('submit', function (event) {
+    edicaoForm.addEventListener('submit', function (event) {
         event.preventDefault(); // Previne o reload da página no submit
 
         // Captura o novo valor do input e atualiza o título da tarefa
-        let novoTitulo = inputEditarFeita.value;
+        let novoTitulo = inputEditar.value;
         if (novoTitulo.trim()) {
-            tarefasFeitas[idTarefa].titulo = novoTitulo;
+            tarefas[idTarefa].titulo = novoTitulo;
             nomeTarefa.textContent = novoTitulo;
 
             // Reverter as mudanças de visualização (esconder o input e mostrar os botões novamente)
-            desfazerBtn.classList.remove('hidden');
+            marcarBtn.classList.remove('hidden');
             nomeTarefa.classList.remove('hidden');
-            botoesFeita.classList.remove('hidden');
-            edicaoFeitaForm.classList.add('hidden');
+            botoes.classList.remove('hidden');
+            edicaoForm.classList.add('hidden');
         }
     });
 }
