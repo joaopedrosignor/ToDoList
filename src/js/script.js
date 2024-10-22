@@ -28,14 +28,14 @@ function renderizarNaTela(){
     tarefas.forEach(tarefa =>{
         let novaTarefa = document.createElement('li')
         novaTarefa.innerHTML = `
-        <div class="tarefa bg-info-subtle d-flex align-items-center justify-content-between p-1 rounded-2">
+        <div class="tarefa bg-info-subtle d-flex flex-column flex-sm-row align-items-start align-items-sm-center justify-content-between p-1 rounded-2">
                 <button onclick="tarefaFeita(${tarefas.indexOf(tarefa)})" class="marcar btn btn-success me-3">
                         <i class="bi bi-check fs-5"></i>
                 </button>
 
                 <p class="tituloAFazer mb-0 w-100 fs-5">${tarefa.titulo}</p>
 
-                <div class="botoes d-flex gap-2">
+                <div class="botoes d-flex gap-2 mt-2 mt-sm-0">
                     <button onclick="editarTarefa(${tarefas.indexOf(tarefa)})" class="btn btn-primary">
                         <i class="bi bi-pencil-square fs-5"></i>
                     </button>
@@ -57,14 +57,14 @@ function renderizarNaTela(){
     tarefasFeitas.forEach(tarefa =>{
         let novaTarefaFeita = document.createElement('li')
         novaTarefaFeita.innerHTML = `
-        <div class="tarefaFeita bg-info-subtle d-flex align-items-center justify-content-between p-1 rounded-2">
+        <div class="tarefaFeita bg-info-subtle d-flex flex-column flex-sm-row align-items-start align-items-sm-center justify-content-between p-1 rounded-2">
                 <button onclick="desfazerTarefa(${tarefasFeitas.indexOf(tarefa)})" class="desfazer btn btn-danger me-3">
                         <i class="bi bi-x fs-5"></i>
                 </button>
 
                 <p class="tituloFeita text-decoration-line-through text-muted mb-0 w-100 fs-5">${tarefa.titulo}</p>
 
-                <div class="botoesFeita d-flex gap-2">
+                <div class="botoesFeita d-flex gap-2 mt-2 mt-sm-0">
                     <button onclick="editarTarefaFeita(${tarefasFeitas.indexOf(tarefa)})" class="editarFeita btn btn-primary">
                         <i class="bi bi-pencil-square fs-5"></i>
                     </button>
